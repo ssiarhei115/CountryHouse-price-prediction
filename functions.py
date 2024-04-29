@@ -14,6 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import requests
 from selenium.common.exceptions import TimeoutException
 import re
+import geocoder 
+from sklearn import metrics 
+import geopy.distance
 
 
 def draw_categories(df,features, ax_width=10, tick_rotation=30):
@@ -187,3 +190,43 @@ def get_district_details(district_name):
     driver.quit()
     
     return [(float(res_1[0]), float(res_1[1])), (float(res_2[0]), float(res_2[1]))]
+
+
+def get_location(name):
+    try:
+        g = geocoder.bing(name, key='AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e')
+        results = g.json
+        #print(name, results['lat'], results['lng'])
+        return (results['lat'], results['lng'])
+    except:
+        print('exception', name)
+        return name
+    
+
+def get_metrics(y_train, y_train_predict, y_test, y_test_predict, y_test_dacha, y_test_pred_dacha, only_mae=False):
+    train_r2 = round(metrics.r2_score(y_train, y_train_predict),2)
+    train_mae = round(metrics.mean_absolute_error(y_train, y_train_predict),2)
+    test_r2 = round(metrics.r2_score(y_test, y_test_predict),2)
+    test_mae = round(metrics.mean_absolute_error(y_test, y_test_predict),2)
+    test_dacha_r2 = round(metrics.r2_score(y_test_dacha, y_test_pred_dacha),2)
+    test_dacha_mae = round(metrics.mean_absolute_error(y_test_dacha, y_test_pred_dacha),2)
+    err_dict = {'r2':[train_r2,test_r2,test_dacha_r2], 'mae':[train_mae,test_mae, test_dacha_mae]}
+    if only_mae:
+        return pd.DataFrame(err_dict['mae'], index=['TRAIN', 'TEST', 'TEST_dacha']) 
+    else:
+        return pd.DataFrame(err_dict, index=['TRAIN', 'TEST', 'TEST_dacha'])
+
+
+def get_distance(data,d1,d2,regions_dict, extra=0):
+    coord1 = str(d1).replace(',',' ').lstrip('(').rstrip(')').split()
+    coord2 = d2.replace(',',' ').lstrip('(').rstrip(')').split()
+    distance = geopy.distance.geodesic((float(coord1[0]),float(coord1[1])), (float(coord2[0]),float(coord2[1]))).km
+
+    if extra == 0:
+        return round(distance,1)
+    else:
+        distances = dict()
+        for key in regions_dict:
+            distances[key] = geopy.distance.geodesic((float(coord1[0]),float(coord1[1])), (regions_dict[key][0],regions_dict[key][1])).km
+        distance_region_min = min(distances.values())
+        return(round(distance,1), round(distance_region_min,1))
