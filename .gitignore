@@ -1,0 +1,8 @@
+project.env
+*.log
+data/
+logs/
+.csv
+*.pdf
+**/data
+*.zip

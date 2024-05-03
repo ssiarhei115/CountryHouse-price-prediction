@@ -889,3 +889,205 @@
 2024-05-01 21:38:13,808 INFO 12 _____rfr | r2:[0.59 0.58 0.33], mae: [43816.95 44420.16 26046.99]
 2024-05-01 21:38:23,169 INFO 26 __gs_imp | r2:[0.72 0.68 0.59], mae: [35676.96 37408.77 19168.32]
 2024-05-01 21:40:04,536 INFO 25 gs_kbest | r2:[0.73 0.7  0.59], mae: [34598.97 36276.74 19168.32], n_best=40
+2024-05-02 10:45:21,787 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:22,769 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:23,693 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:24,648 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:26,237 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:27,517 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 10:45:44,940 INFO 1 price<500000
+2024-05-02 10:47:42,220 INFO 10 ______lr | r2:[0.7 0.7 0.2], mae: [38279.18 38119.31 27199.67]
+2024-05-02 11:24:00,503 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:01,753 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:02,726 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:03,804 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:04,770 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:05,724 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:24:58,048 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:25:03,520 ERROR 499 Status code Unknown from http://dev.virtualearth.net/REST/v1/Locations: ERROR - HTTPConnectionPool(host='dev.virtualearth.net', port=80): Read timed out. (read timeout=5.0)
+2024-05-02 11:25:04,934 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:25:06,209 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:25:07,169 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:25:08,129 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:48,234 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:49,129 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:50,029 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:50,930 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:51,814 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:26:52,692 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 11:27:10,973 INFO 1 price<500000
+2024-05-02 11:27:11,402 INFO 10 ______lr | r2:[0.7 0.7 0.2], mae: [38279.18 38119.31 27199.67]
+2024-05-02 11:27:34,861 INFO 26 ______gs | r2:[0.77 0.72 0.55], mae: [32401.55 34872.36 19434.22]
+2024-05-02 11:30:01,935 INFO 12 _____rfr | r2:[0.59 0.58 0.32], mae: [43816.02 44419.07 26150.48]
+2024-05-02 11:30:11,490 INFO 26 __gs_imp | r2:[0.72 0.68 0.59], mae: [35676.96 37408.77 19168.32]
+2024-05-02 11:31:50,543 INFO 25 gs_kbest | r2:[0.73 0.7  0.59], mae: [34598.97 36276.74 19168.32], n_best=40
+2024-05-02 14:09:47,833 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:09:48,472 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:09:49,370 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:09:50,009 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:09:50,720 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:09:51,333 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:10:09,289 INFO 1 price<500000
+2024-05-02 14:10:09,767 INFO 10 ______lr | r2:[0.7 0.7 0.2], mae: [38285.26 38143.11 27249.2 ]
+2024-05-02 14:10:34,721 INFO 26 ______gs | r2:[0.77 0.72 0.57], mae: [32265.65 34709.73 18993.41]
+2024-05-02 14:12:54,235 INFO 12 _____rfr | r2:[0.59 0.58 0.32], mae: [43811.83 44387.25 26202.75]
+2024-05-02 14:13:03,724 INFO 26 __gs_imp | r2:[0.72 0.68 0.59], mae: [35676.96 37408.77 19168.32]
+2024-05-02 14:14:42,266 INFO 25 gs_kbest | r2:[0.74 0.7  0.59], mae: [34492.14 36198.57 19168.32], n_best=40
+2024-05-02 14:25:50,274 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:25:51,347 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:25:52,254 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:25:52,877 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:25:53,685 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:25:54,349 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 14:26:12,505 INFO 1 price<500000
+2024-05-02 14:26:13,227 INFO 11 ______lr | r2:[0.7 0.7 0.2], mae: [38285.26 38143.11 27249.2 ]
+2024-05-02 14:26:38,548 INFO 26 ______gs | r2:[0.77 0.72 0.57], mae: [32265.65 34709.73 18993.41]
+2024-05-02 14:28:49,660 INFO 12 _____rfr | r2:[0.59 0.58 0.32], mae: [43809.43 44420.88 26068.46]
+2024-05-02 14:29:01,097 INFO 27 __gs_imp | r2:[0.73 0.7  0.59], mae: [34916.48 36542.19 19121.66]
+2024-05-02 14:30:49,390 INFO 26 gs_kbest | r2:[0.74 0.7  0.59], mae: [34492.14 36198.57 19121.66], n_best=40
+2024-05-02 18:41:37,076 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:38,025 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:38,900 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:39,685 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:40,413 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:41,126 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 18:41:59,313 INFO 1 price<500000
+2024-05-02 18:41:59,512 INFO 11 ______lr | r2:[0.7 0.7 'NA'], mae: [38285.26 38143.11 27249.2 ]
+2024-05-02 18:42:23,904 INFO 26 ______gs | r2:[0.77 0.72 'NA'], mae: [32265.65 34709.73 18993.41]
+2024-05-02 18:44:39,155 INFO 12 _____rfr | r2:[0.59 0.58 'NA'], mae: [43816.65 44395.08 26212.9 ]
+2024-05-02 18:44:49,546 INFO 27 __gs_imp | r2:[0.73 0.7 'NA'], mae: [34916.48 36531.45 19121.66]
+2024-05-02 18:46:35,288 INFO 26 gs_kbest | r2:[0.74 0.7 'NA'], mae: [34492.14 36198.57 19121.66], n_best=40
+2024-05-02 22:01:18,857 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:19,709 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:20,457 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:21,309 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:22,061 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:22,963 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-02 22:01:40,218 INFO 1 price<500000
+2024-05-02 22:01:40,449 INFO 11 ______lr | r2:[0.7 0.7 'NA'], mae: [38285.26 38143.11 27249.2 ]
+2024-05-02 22:02:02,608 INFO 26 ______gs | r2:[0.77 0.72 'NA'], mae: [32265.65 34709.73 18993.41]
+2024-05-02 22:04:17,360 INFO 12 _____rfr | r2:[0.59 0.58 'NA'], mae: [43821.79 44411.03 26163.53]
+2024-05-02 22:04:27,433 INFO 27 __gs_imp | r2:[0.73 0.7 'NA'], mae: [34916.48 36531.45 19121.66]
+2024-05-02 22:06:08,576 INFO 26 gs_kbest | r2:[0.74 0.7 'NA'], mae: [34492.14 36198.57 19121.66], n_best=40
+2024-05-03 07:18:11,349 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:11,991 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:12,636 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:13,267 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:13,897 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:14,567 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 07:18:31,627 INFO 1 price<500000
+2024-05-03 07:18:31,828 INFO 11 ______lr | r2:[0.7 0.7 'NA'], mae: [38285.26 38143.11 27249.2 ]
+2024-05-03 07:18:53,141 INFO 26 ______gs | r2:[0.77 0.72 'NA'], mae: [32265.65 34709.73 18993.41]
+2024-05-03 07:21:07,405 INFO 12 _____rfr | r2:[0.59 0.58 'NA'], mae: [43814.63 44402.79 26157.36]
+2024-05-03 07:21:18,145 INFO 27 __gs_imp | r2:[0.73 0.7 'NA'], mae: [34970.52 36585.96 19501.37]
+2024-05-03 07:22:58,013 INFO 26 gs_kbest | r2:[0.74 0.7 'NA'], mae: [34492.14 36198.57 19501.37], n_best=40
+2024-05-03 07:44:23,602 INFO 26 gs_kbout | r2:[0.74 0.7 'NA'], mae: [34492.14 36198.57 19501.37], n_best=40
+2024-05-03 07:45:00,783 INFO 26 gs_kbout | r2:[0.83 0.7 'NA'], mae: [27049.87 35714.61 19501.37], n_best=40
+2024-05-03 07:58:58,472 INFO 26 gs_kbout | r2:[0.83 0.81 'NA'], mae: [27049.87 28122.47 19501.37], n_best=40
+2024-05-03 08:58:58,194 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:58:58,999 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:58:59,889 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:59:00,575 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:59:01,529 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:59:02,155 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 08:59:19,852 INFO 1 price<500000
+2024-05-03 08:59:20,046 INFO 11 ______lr | r2:[0.7 0.7 'NA'], mae: [38285.26 38143.11 27249.2 ]
+2024-05-03 08:59:42,236 INFO 26 ______gs | r2:[0.77 0.72 'NA'], mae: [32265.65 34709.73 18993.41]
+2024-05-03 09:00:02,086 INFO 26 gserrout | r2:[0.84 0.83 'NA'], mae: [26152.47 26758.98 18372.94]
+2024-05-03 09:02:11,815 INFO 12 _____rfr | r2:[0.71 0.7 'NA'], mae: [34921.09 35215.65 22947.55]
+2024-05-03 09:02:22,189 INFO 27 __gs_imp | r2:[0.81 0.81 'NA'], mae: [28283.99 28450.84 18533.08]
+2024-05-03 09:05:42,328 INFO 26 gs_kbest | r2:[0.81 0.81 'NA'], mae: [27980.43 28370.33 18533.08], n_best=40
+2024-05-03 09:20:25,980 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:26,916 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:27,612 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:28,700 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:29,508 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:30,252 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:20:47,621 INFO 1 price<500000
+2024-05-03 09:20:47,824 INFO 10 ______lr | r2:[0.7 0.7], mae: [38285.26 38143.11]
+2024-05-03 09:21:09,638 INFO 25 ______gs | r2:[0.77 0.72], mae: [32265.65 34709.73]
+2024-05-03 09:21:29,530 INFO 25 gserrout | r2:[0.84 0.83], mae: [26152.47 26758.98]
+2024-05-03 09:23:54,212 INFO 11 _____rfr | r2:[0.71 0.7 ], mae: [34915.93 35189.95]
+2024-05-03 09:24:04,668 INFO 26 __gs_imp | r2:[0.81 0.81], mae: [28283.99 28453.16]
+2024-05-03 09:25:39,984 INFO 26 gs_kbest | r2:[0.81 0.81], mae: [27980.43 28370.33], n_best=40
+2024-05-03 09:29:38,228 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:29:39,083 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:29:40,255 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:29:40,822 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:29:41,401 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:29:42,009 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:30:05,612 INFO 1 price unlimited
+2024-05-03 09:30:06,056 INFO 10 ______lr | r2:[0.7 0.7], mae: [53079.16 53618.98]
+2024-05-03 09:30:28,065 INFO 25 ______gs | r2:[0.8  0.74], mae: [43378.98 47109.5 ]
+2024-05-03 09:30:48,400 INFO 25 gserrout | r2:[0.89 0.87], mae: [27463.72 27817.71]
+2024-05-03 09:33:07,652 INFO 11 _____rfr | r2:[0.74 0.72], mae: [40889.77 39476.29]
+2024-05-03 09:33:17,708 INFO 26 __gs_imp | r2:[0.87 0.84], mae: [30194.44 30378.96]
+2024-05-03 09:35:04,737 INFO 26 gs_kbest | r2:[0.87 0.84], mae: [29958.83 29640.98], n_best=40
+2024-05-03 09:37:07,037 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:07,633 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:08,202 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:08,801 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:09,440 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:10,449 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:37:26,903 INFO 1 price < 400000
+2024-05-03 09:37:27,118 INFO 10 ______lr | r2:[0.68 0.68], mae: [34215.44 35034.84]
+2024-05-03 09:37:48,894 INFO 25 ______gs | r2:[0.74 0.72], mae: [29577.6  31787.52]
+2024-05-03 09:38:09,772 INFO 25 gserrout | r2:[0.81 0.79], mae: [25220.75 26923.91]
+2024-05-03 09:40:10,683 INFO 11 _____rfr | r2:[0.34 0.34], mae: [47600.22 48072.39]
+2024-05-03 09:40:14,223 INFO 26 __gs_imp | r2:[0.45 0.44], mae: [42710.04 43336.98]
+2024-05-03 09:41:46,120 INFO 26 gs_kbest | r2:[0.78 0.77], mae: [26799.69 27814.25], n_best=40
+2024-05-03 09:43:43,485 INFO 25 gserrout | r2:[0.84 0.81], mae: [22783.2  24300.54]
+2024-05-03 09:50:55,025 INFO 11 _____rfr | r2:[0.95 0.79], mae: [11422.41 25068.77]
+2024-05-03 09:51:22,811 INFO 26 __gs_imp | r2:[0.81 0.79], mae: [24353.79 25614.45]
+2024-05-03 09:53:51,579 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:53:52,667 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:53:53,421 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:53:54,127 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:53:54,853 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:53:55,564 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 09:54:13,598 INFO 1 price < 400000
+2024-05-03 09:54:13,981 INFO 10 ______lr | r2:[0.68 0.68], mae: [34215.44 35034.84]
+2024-05-03 09:54:36,785 INFO 25 ______gs | r2:[0.74 0.72], mae: [29577.6  31787.52]
+2024-05-03 09:54:56,698 INFO 25 gserrout | r2:[0.84 0.81], mae: [22783.2  24300.54]
+2024-05-03 09:57:37,977 INFO 11 _____rfr | r2:[0.95 0.79], mae: [11416.15 25050.58]
+2024-05-03 09:57:47,635 INFO 26 __gs_imp | r2:[0.81 0.79], mae: [24353.79 25614.45]
+2024-05-03 09:59:19,255 INFO 26 gs_kbest | r2:[0.81 0.79], mae: [24302.26 25234.78], n_best=40
+2024-05-03 10:49:17,475 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:18,375 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:29,019 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:29,634 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:30,443 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:31,047 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 10:49:48,655 INFO 1 price < 400000
+2024-05-03 10:49:48,862 INFO 10 ______lr | r2:[0.68 0.68], mae: [34215.44 35034.84]
+2024-05-03 10:50:10,954 INFO 25 ______gs | r2:[0.74 0.72], mae: [29577.6  31787.52]
+2024-05-03 10:50:31,671 INFO 25 gserrout | r2:[0.84 0.81], mae: [22783.2  24300.54]
+2024-05-03 10:53:29,487 INFO 11 _____rfr | r2:[0.95 0.79], mae: [11113.56 25147.49]
+2024-05-03 10:53:39,616 INFO 26 __gs_imp | r2:[0.8  0.79], mae: [24384.07 25675.19]
+2024-05-03 10:55:13,703 INFO 26 gs_kbest | r2:[0.81 0.79], mae: [24302.26 25234.78], n_best=40
+2024-05-03 11:34:14,780 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:15,385 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:15,971 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:16,907 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:17,600 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:18,380 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:34:36,553 INFO 1 price < 400000
+2024-05-03 11:34:37,080 INFO 10 ______lr | r2:[0.68 0.68], mae: [34215.44 35034.84]
+2024-05-03 11:34:59,486 INFO 25 ______gs | r2:[0.74 0.72], mae: [29577.6  31787.52]
+2024-05-03 11:35:19,754 INFO 25 gserrout | r2:[0.84 0.81], mae: [22783.2  24300.54]
+2024-05-03 11:38:07,140 INFO 11 _____rfr | r2:[0.96 0.79], mae: [11084.61 25071.16]
+2024-05-03 11:38:17,231 INFO 26 __gs_imp | r2:[0.81 0.79], mae: [24353.79 25614.45]
+2024-05-03 11:39:51,393 INFO 26 gs_kbest | r2:[0.81 0.79], mae: [24302.26 25234.78], n_best=40
+2024-05-03 11:56:15,273 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:16,350 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%91%D1%80%D0%B5%D1%81%D1%82%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:17,373 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:18,000 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:18,592 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:19,562 INFO 494 Requested http://dev.virtualearth.net/REST/v1/Locations?q=%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%2C+%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&o=json&inclnb=1&key=AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e&maxResults=1
+2024-05-03 11:56:37,367 INFO 1 price < 400000
+2024-05-03 11:56:37,705 INFO 10 ______lr | r2:[0.68 0.68], mae: [34215.44 35034.84]
+2024-05-03 11:57:01,222 INFO 25 ______gs | r2:[0.74 0.72], mae: [29577.6  31787.52]
+2024-05-03 11:57:21,780 INFO 25 gserrout | r2:[0.84 0.81], mae: [22783.2  24300.54]
+2024-05-03 12:00:40,819 INFO 11 _____rfr | r2:[0.96 0.79], mae: [11078.57 25068.89]
+2024-05-03 12:00:51,393 INFO 26 __gs_imp | r2:[0.81 0.79], mae: [24353.79 25614.45]
+2024-05-03 12:02:21,719 INFO 26 gs_kbest | r2:[0.81 0.79], mae: [24302.26 25234.78], n_best=40

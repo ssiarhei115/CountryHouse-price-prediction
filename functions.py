@@ -28,7 +28,7 @@ def draw_categories(df,features, ax_width=10, tick_rotation=30):
         tick_rotation (int, optional): tick rotation angle. Defaults to 30.
     """
     n = len(features) 
-    fig, axes = plt.subplots(n, 2, figsize=(ax_width, n*3)) 
+    fig, axes = plt.subplots(n, 2, figsize=(ax_width, n*4)) 
 
     for i, feature in enumerate(features):
         #print(n,i,feature)
@@ -50,11 +50,12 @@ def outliers_z_score(data, feature, left=3, right=3, log_scale=False):
     Args:
         data (dataframe): source dataframe
         feature (string): feature name
-        log_scale (bool, optional): if the feature should be logarithmizeв. Defaults to False.
+        log_scale (bool, optional): if the feature should be logarithmized. Defaults to False.
 
     Returns:
         dataframe: dataframe without outliers
     """
+
     if log_scale:
         x = np.log(data[feature]+1)
     else:
@@ -69,6 +70,17 @@ def outliers_z_score(data, feature, left=3, right=3, log_scale=False):
 
 
 def outliers_iqr_mod(data, feature, left=1.5, right=1.5, log_scale=False):
+    """Remove outliers according +/-1.5-IQR-method
+
+    Args:
+        data (dataframe): source dataframe
+        feature (string): feature name
+        log_scale (bool, optional): if the feature should be logarithmized. Defaults to False.
+
+    Returns:
+        dataframe: dataframe without outliers
+    """
+
     if log_scale:
         x = np.log(data[feature])
     else:
@@ -86,13 +98,14 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
     """ Assess if the difference between feature options is statistically significant
 
     Args:
-        category (_type_): _description_
-        category_opt_1 (_type_): _description_
-        category_opt_2 (_type_): _description_
-        alpha (_type_, optional): _description_. Defaults to alpha.
+        category (str): feature name
+        category_opt_1 (str): option #1 for the feature
+        category_opt_2 (str): option #1 for the feature
+        alpha (float, optional): the level of statistical significance. Defaults to 0.05.
 
     Returns:
-        _type_: _description_
+        str: {Feature name}: {option #1} {normal=0, notnormal=1}, {option #2} {normal=0, notnormal=1}: 
+        {equal/not equal} --> {substitute recommendation if equal}  
     """
         
     opt_1 = data[data[category]==category_opt_1]['price']
@@ -100,6 +113,15 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
     max_opt = data[data[category].isin([category_opt_1,category_opt_2])][category].value_counts().idxmax()
 
     def get_normality(data, alpha=alpha):
+        """Normality test
+
+        Args:
+            data (pd.Series): feature(option) price
+            alpha (float, optional): the level of statistical significance. Defaults to alpha.
+
+        Returns:
+            int: 0 - normal distribution, 1 - not normal
+        """
         _, p = stats.shapiro(data)
         if p <= alpha:
             return 1
@@ -107,6 +129,16 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
             return 0
     
     def test_t(data_1, data_2, alpha=alpha):
+        """ t-test. parametric test
+
+        Args:
+            data_1 (pd.Series): feature(option#1) price
+            data_2 (pd.Series): feature(option#2) price
+            alpha (float, optional): the level of statistical significance. Defaults to alpha.
+
+        Returns:
+            str: test result
+        """
         result = stats.levene(data_1, data_2)
         p = result[1]
         if p <= alpha:
@@ -114,7 +146,7 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
         else:
             equal_var=True
 
-        _, p = stats.ttest_ind(data_1, data_2, alternative='two-sided', equal_var=True)
+        _, p = stats.ttest_ind(data_1, data_2, alternative='two-sided', equal_var=equal_var)
         if p <= alpha:
             return 'not equal'
         else:
@@ -122,6 +154,16 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
 
 
     def test_mannwhit(data_1, data_2, alpha=alpha):
+        """ Mann-Whitney non parametric test
+
+        Args:
+            data_1 (pd.Series): feature(option#1) price
+            data_2 (pd.Series): feature(option#2) price
+            alpha (float, optional): the level of statistical significance. Defaults to alpha.
+
+        Returns:
+            str: test result
+        """    
         _, p = stats.mannwhitneyu(data_1, data_2, alternative='two-sided')
         if p <= alpha:
             return 'not equal'
@@ -147,6 +189,14 @@ def stat_compare(data,category, category_opt_1, category_opt_2, alpha=0.05):
 
 
 def get_district_details(district_name):
+    """Parser to collect coordinates data of a district & district city from Wikipedia
+
+    Args:
+        name (str): district name
+
+    Returns:
+        list: (district latitude,longitude),(district city latitude,longitude)
+    """
     service = Service(executable_path=r'/usr/bin/chromedriver')
     options = webdriver.ChromeOptions()
     #options.add_argument('--headless') #It allows users to run automated scripts in headless mode, meaning that the browser window wouldn’t be visible. 
@@ -193,6 +243,14 @@ def get_district_details(district_name):
 
 
 def get_location(name):
+    """Collect coordinates data of belarusian regions
+
+    Args:
+        name (str): region name
+
+    Returns:
+        tuple: latitude,longitude
+    """
     try:
         g = geocoder.bing(name, key='AgY4Qy8qL2I1oMf6xu6SSpqncKEFzpjZIKzs3Y_lhKvdA4cRPMUpBEIDmgXxm5_e')
         results = g.json
@@ -203,21 +261,42 @@ def get_location(name):
         return name
     
 
-def get_metrics(y_train, y_train_predict, y_test, y_test_predict, y_test_dacha, y_test_pred_dacha, only_mae=False):
+def get_metrics(y_train, y_train_predict, y_test, y_test_predict):
+    """display calculated metrics
+
+    Args:
+        y_train (Series): train target values
+        y_train_predict (ndarray): predicted values for train set
+        y_test (Series): test target values
+        y_test_predict (ndarray): predicted values for test set
+        
+    Returns:
+        DataFrame: DF with scores calculated
+    """
     train_r2 = round(metrics.r2_score(y_train, y_train_predict),2)
     train_mae = round(metrics.mean_absolute_error(y_train, y_train_predict),2)
+    #train_mape = round(metrics.mean_absolute_percentage_error(y_train, y_train_predict),2)
     test_r2 = round(metrics.r2_score(y_test, y_test_predict),2)
     test_mae = round(metrics.mean_absolute_error(y_test, y_test_predict),2)
-    test_dacha_r2 = round(metrics.r2_score(y_test_dacha, y_test_pred_dacha),2)
-    test_dacha_mae = round(metrics.mean_absolute_error(y_test_dacha, y_test_pred_dacha),2)
-    err_dict = {'r2':[train_r2,test_r2,test_dacha_r2], 'mae':[train_mae,test_mae, test_dacha_mae]}
-    if only_mae:
-        return pd.DataFrame(err_dict['mae'], index=['TRAIN', 'TEST', 'TEST_dacha']) 
-    else:
-        return pd.DataFrame(err_dict, index=['TRAIN', 'TEST', 'TEST_dacha'])
+    #test_mape = round(metrics.mean_absolute_percentage_error(y_test, y_test_predict),2)
+    
+    err_dict = {'r2':[train_r2,test_r2], 'mae':[train_mae,test_mae]}
+    
+    return pd.DataFrame(err_dict, index=['TRAIN', 'TEST'])
 
 
-def get_distance(data,d1,d2,regions_dict, extra=0):
+def get_distance(d1,d2,regions_dict, extra=0):
+    """Calculate geodesic distance between two points
+
+    Args:
+        d1 (tuple of floats): 1st point coordinates 
+        d2 (str): 2nd point coordinates 
+        regions_dict (dict): keys - regions names, values - region main city coordinates 
+        extra (int, optional): if calculate the shortest distance. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     coord1 = str(d1).replace(',',' ').lstrip('(').rstrip(')').split()
     coord2 = d2.replace(',',' ').lstrip('(').rstrip(')').split()
     distance = geopy.distance.geodesic((float(coord1[0]),float(coord1[1])), (float(coord2[0]),float(coord2[1]))).km
