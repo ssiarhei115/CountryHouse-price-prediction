@@ -3,7 +3,7 @@
 ## Main goal
 Building a model predicting a price for countryhouses & cottages in Belarus.
 
-## Tasks to be realized
+## Tasks realized
 1. Collecting the data from web source using parsing technology
 2. Data processing: handling duplicates, nan-values, features' types, outliers. Numeric & Categorical features processiong
 3. Generating new features
