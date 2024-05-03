@@ -15,6 +15,10 @@ Building a model predicting a price for countryhouses & cottages in Belarus.
 
 Primary dataset is one parsed from the web site realt.by. It contains data about cottages & countryhouses ads in Belarus in Apr 2024: more than 16000 rows with 52 columns initially.
 
+Here is the visualization of objects distribution on the map
+
+<img src="map.by" width="850" title="">
+
 ## Metrics
 
 The evaluation metrics for the project was R2 & MAE.
