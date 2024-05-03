@@ -17,7 +17,7 @@ Primary dataset is one parsed from the web site realt.by. It contains data about
 
 Here is the visualization of objects distribution on the map
 
-<img src="map.by" width="850" title="">
+<img src="map.png" width="850" title="">
 
 ## Metrics
 
