@@ -32,19 +32,19 @@ At the 1st iterration of the project the main goal was building a model predicti
 
 The data was parsed from realt.by web-site using Selenium library & Chrome Webdriver engine. At the first step, the site feed containing brief information about the objects was scanned. The main goal at this stage: parsing ad URLs containing a unique identifier (ID)(data/pars_res{int}.txt). At the second stage, a loop of saved URLs was carried out and detailed information about the objects was collected and saved in csv-format (data/country_houses.csv & data/country_houses_2.csv).
 
-<i>Data processing (code.ipynb)</i>
+<i>Data processing (main.ipynb)</i>
 
 All parsed data was mainly saved as type 'object'. So at this step it was supposed to transform numeric data to int or float. Main part of collected data was categorical: some binary, another - multioptions. Due to the similarity of some Multicategorical feature options some options were merged after statistical assessment of the statistical significance of the difference between similar options. Both numeric and categorical features required handling nan values, which was managed either by filling with median/mode value or str-value - depending on the feature type. Due to not normal distribution of the target feature (price) outliers were handled using +/- 1.5 IQR method (Interquartile Range).
 
-<i>Generating new features (code.ipynb)</i>
+<i>Generating new features (main.ipynb)</i>
 
 Some additional features were generated and added to the data set. They mainly based on house coordinates data and include distances till district city, regional city and Belarus capital.
 
-<i>EDA (code.ipynb)</i>
+<i>EDA (main.ipynb)</i>
 
 Data preprocessing helped to identify the main dependencies between features and the target variable - price. 
 
-<i>Modeling (code.ipynb)</i>
+<i>Modeling (main.ipynb)</i>
 
 LinearRegression was used as base model to be compared with. GradientBoosting appeared one of the most effective from the point of view of the metrics.
 40 the most useful features were selected using SelectKBest. 
