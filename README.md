@@ -13,7 +13,7 @@ ML modeling for house price prediction in Belarus.
 
 ## Data description
 
-Primary dataset is one parsed from the web site realt.by. It contains data about cottages & countryhouses ads in Belarus in Apr 2024: more than 16000 rows with 52 columns initially.
+Primary dataset is one parsed from the web site realt.by. It contains data about houses, cottages & countryhouses ads in Belarus in Apr 2024: more than 16000 rows with 52 columns initially.
 
 Here is the visualization of objects distribution on the map
 
