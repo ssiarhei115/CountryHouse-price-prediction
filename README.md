@@ -1,7 +1,7 @@
 # Country house price prediction
 
 ## Main goal
-Building a model predicting a price for countryhouses & cottages in Belarus.
+Building a model predicting a price for countryhouse, house or cottage in Belarus.
 
 ## Tasks realized
 1. Collecting the data from web source using parsing technology
