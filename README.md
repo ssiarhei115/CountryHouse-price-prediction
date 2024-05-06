@@ -26,6 +26,8 @@ The evaluation metrics for the project was R2 & MAE.
 
 ## Summary
 
+The project goal required full-stack approach implementation: starting from parsing/collecting data, data processing/modeling and model inference, including both back&front-end representation. 
+
 At the 1st iterration of the project the main goal was building a model predicting a price only for countryhouses. Approximately 3000+ ads was parsed from realt.by. Taking into account relatively small size of the data set it was decided and seemed reasonable to use R2-score to evaluate model quality. When R2-score close to 0.7 was obtained I moved to the 2nd iterration. The new goal was reformulated: Building a model predicting a price for countryhouses, houses & cottages. This goal required more data for analysis. At the 2nd iterration more than 13000 ads was additionaly parsed from the same web source yielding in total the data set with the shape (16187, 52). 
 
 <i>Parsing (parsing.ipynb) </i>
